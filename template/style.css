@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*16px x 0.65 = 10px = 1 rem*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Layout */
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header' 'main' 'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5em;
+    height: 100%
+}
