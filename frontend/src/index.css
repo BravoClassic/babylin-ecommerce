@@ -128,3 +128,7 @@ img.medium {
 .rating span {
     color: #CFB94B
 }
+
+.rating span:last-child{
+  color:#fff
+}
