@@ -1,0 +1,26 @@
+{
+  "name": "babylin-ecommerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is an ecommerce website for Babylin Consult",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BravoClassic/babylin-ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BravoClassic/babylin-ecommerce/issues"
+  },
+  "homepage": "https://github.com/BravoClassic/babylin-ecommerce#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
