@@ -20,7 +20,7 @@ const data = {
                 price: 60,
                 countInStock: 15,
                 bran: 'BN Natural Hair Foods',
-                rating: 4.5,
+                rating: 3.5,
                 numReviews: 10,
                 description: 'This is a review!'
             }, {
@@ -31,7 +31,7 @@ const data = {
                 price: 60,
                 countInStock: 12,
                 bran: 'BN Natural Hair Foods',
-                rating: 4.5,
+                rating: 5,
                 numReviews: 10,
                 description: 'This is a review!'
             }, {
@@ -53,7 +53,7 @@ const data = {
                 price: 60,
                 countInStock: 0,
                 bran: 'BN Natural Hair Foods',
-                rating: 4.5,
+                rating: 5,
                 numReviews: 10,
                 description: 'This is a review!'
             }, {
@@ -64,12 +64,11 @@ const data = {
                 price: 60,
                 countInStock: 19,
                 bran: 'BN Natural Hair Foods',
-                rating: 4.5,
+                rating: 4,
                 numReviews: 10,
                 description: 'This is a review!'
             }
         ]
 };
-module.exports = data;
-
+export default data;
 
