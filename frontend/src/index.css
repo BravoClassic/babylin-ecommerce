@@ -148,6 +148,10 @@ header a {
   flex: 2 1 50 rem;
 }
 
+.min-30{
+  min-width:30rem
+}
+
 /* Image */
 
 img {
@@ -155,7 +159,10 @@ img {
   /* border-radius: 0.5em; */
   border-bottom-right-radius: 0.5rem;
 }
-
+img.small{
+  max-width:5 rem;
+  width:100%;
+}
 img.medium {
   max-width: 29rem;
   width: 100%;
@@ -213,3 +220,4 @@ img.medium {
   color: #a02020;
   background-color: #ffe0e0;
 }
+
