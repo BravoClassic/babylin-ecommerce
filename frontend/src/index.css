@@ -160,7 +160,7 @@ img {
   border-bottom-right-radius: 0.5rem;
 }
 img.small{
-  max-width:5 rem;
+  max-width:20rem;
   width:100%;
 }
 img.medium {
