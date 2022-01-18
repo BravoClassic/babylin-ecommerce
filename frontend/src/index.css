@@ -198,6 +198,9 @@ img.medium {
 }
 
 /* alert */
+.loading{
+  display:block !important;
+}
 .success {
   color: #64a56f;
 }
@@ -235,4 +238,40 @@ img.medium {
 .form label{
   margin:1rem 0;
   display: block;
+}
+
+/* Dropdown Section */
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content{
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 12rem;
+  padding:1rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  margin: 0.4rem 0 0 0;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/* Checkout Steps Section */
+
+.checkout-steps > div{
+  border-top: 0.3rem solid #c0c0c0;
+  color: #c0c0c0;
+  flex: 1;
+  padding:1rem;
+  font-weight: bold;
+}
+.checkout-steps > div.active{
+  color: #64a56f;
+  border-top: 0.3rem solid #64a56f;
 }
