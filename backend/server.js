@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
 import cors from 'cors';
+import OrderRouter from './routers/orderRouters.js';
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -26,3 +27,4 @@ app.listen(port, () => {
 });
 app.use('/api/users', userRouter);
 app.use('/api/products',productRouter);
+app.use('/api/orders',OrderRouter);
