@@ -28,7 +28,7 @@ export default function SigninScreen (props) {
                         <h1>Sign In</h1>
                     </div>
                     {loading && <LoadingBox></LoadingBox>}
-                    {error && <MessageBox variant="fail">{error}</MessageBox>}
+                    {error && <MessageBox variant="error">{error}</MessageBox>}
                     <div>
                         <label htmlFor="email">Email</label>
                         <input type="email" id="email" name="email" required onChange={(e) => setEmail(e.target.value)} />

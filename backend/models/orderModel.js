@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const orderSchema = new mongoose.Schema({
     orderItems: [{
         name: {type: String, required: true,unique: true},
+        quantity: {type: Number, required: true},
         image: {type: String, required: true},
         price: {type: Number, required: true},
         product: {
@@ -18,7 +19,7 @@ const orderSchema = new mongoose.Schema({
         postalCode: {type: Number, required: true},
         country: {type: String, required: true}
     },
-    paymentMethods: {type: String, required: true},
+    paymentMethod: {type: String, required: true},
     itemsPrice: {type: Number, required: true},
     shippingPrice: {type: Number, required: true},
     taxPrice: {type: Number, required: true},

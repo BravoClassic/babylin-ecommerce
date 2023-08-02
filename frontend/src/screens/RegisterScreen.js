@@ -37,8 +37,8 @@ export default function RegisterScreen (props) {
                         <h1>Register</h1>
                     </div>
                     {loading && <LoadingBox></LoadingBox>}
-                    {error && <MessageBox variant="fail">{error}</MessageBox>}
-                    {/* {password && <MessageBox variant="fail">{passNotMatch}</MessageBox>} */}
+                    {error && <MessageBox variant="error">{error}</MessageBox>}
+                    {/* {password && <MessageBox variant="error">{passNotMatch}</MessageBox>} */}
                     <div>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" name="name" required onChange={(e) => setName(e.target.value)} />
